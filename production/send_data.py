@@ -2,7 +2,7 @@ import requests
 import random
 import time
 
-URL = "https://disturbing-azure.cmd.outerbase.io/outerbase-test"
+URL = "https://disturbing-azure.cmd.outerbase.io/outerbaste"
 
 def send_temperature(temperature, ambientTemperature, battery):
     payload = {
@@ -13,6 +13,7 @@ def send_temperature(temperature, ambientTemperature, battery):
     try:
         response = requests.put(URL, json=payload)
         if response.status_code == 200:
+            print(f"Sent Payload: {payload}")
             print(f"Temperature sent: {temperature}")
         else:
             print(f"Failure: {response}")
