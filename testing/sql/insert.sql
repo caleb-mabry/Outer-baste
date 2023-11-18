@@ -1,0 +1,1 @@
+INSERT INTO temperature_data (temperature) VALUES ({{request.body.temperature}})
