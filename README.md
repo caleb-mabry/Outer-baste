@@ -6,6 +6,10 @@ What I really wanted was a way to visualize my data and share it with my friends
 
 # Follow the Journey
 
+# Watch the current turkey data!
+
+https://caleb-mabry.github.io/Outer-baste/
+
 ## Preparing
 
 To prepare for this journey, I needed to make sure that everything works! So feel free to go take a look at [the testing folder!](./testing/README.md)
